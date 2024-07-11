@@ -2,7 +2,7 @@ import os
 import chromadb
 import openai
 from chromadb.utils import embedding_functions
-from src.core.process.embeddings import get_embedding
+from openai import OpenAI
 
 # Setup OpenAI embedding function
 api_key = os.getenv('OPENAI_API_KEY')
@@ -17,6 +17,13 @@ os.makedirs(db_dir, exist_ok=True)
 # Initialize ChromaDB client
 chroma_client = chromadb.PersistentClient(path=db_dir)
 collection_name = 'documents'  # Single collection name
+client = OpenAI(api_key=OPENAI_API_KEY)
+
+def get_embedding(text, model="text-embedding-3-small"):
+   text = text.replace("\n", " ")
+   return client.embeddings.create(input = [text], model=model).data[0].embedding
+
+
 
 def get_or_create_collection(client, collection_name, embedding_function):
     try:

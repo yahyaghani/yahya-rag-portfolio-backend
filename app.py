@@ -4,7 +4,7 @@ from chroma_functions import query_documents
 from openai_query import query_openai_with_chunks
 
 app = Flask(__name__)
-CORS(app, resources={r"/*": {"origins": "http://localhost:3000"}})
+CORS(app, resources={r"/*": {"origins": ["http://localhost:3000", "https://yahyaghani.com"]}})
 
 @app.route('/query', methods=['POST'])
 def query_documents_endpoint():
@@ -30,5 +30,6 @@ def query_documents_endpoint():
         print(f"Error: {str(e)}")  # Debugging statement
         return jsonify({"error": str(e)}), 500
 
+
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0', port=5000, debug=True)
