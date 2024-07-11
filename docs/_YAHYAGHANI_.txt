@@ -1,0 +1,104 @@
+<CV>
+
+                                                                              
+YAHYA GHANI                                                                                                                        
+Founding Generalist  / AI Lead /  Creative Product Engineer	
+
+Github.com/yahyaghani
+cv@yahyaghani.com
+Linkedin.com/in/yahyaghani
+London,Uk
+
+
+define   about_me(background):
+
+• Contrarian | Creative | Communicator
+
+• Donned multiple hats from AI Product Innovation Lead,Product Engineer to Founder.
+
+• Specialize in leading AI Product Development.
+
+• Have accumulated over 4 years of experience     which spans early stage startups & Large  Consultancy Agencies  
+
+• Experience ranging from legal tech ,golf tech   & doctech.
+
+define   education_hobbies( uni,interests):
+ 	    	   Oxford Brookes 
+    	     	  Philosophy & AI
+
+                 Stanford 
+    	     	   ML Algorithms 
+
+     /PG Essays/	   /hackathons/      /Golf/ 	    /Chess/      /MusicProd/     /Screenwriting/
+
+define   skills(lang,framework,tools):
+Dev	Python (Flask/Django)/React(TS/Native)/PHP 
+
+ML 		 Tensorflow/Torch/Keras/
+	      Spacy/NLTK/OpenCV/Sci-kit/CUDA
+ 
+LLMOPS     GPT2+Finetune/RAGOps/LangChain/
+			/LlamaIndex/W&B
+
+Infra	    SQL/NoSql/GraphQl/GCP/AWS
+	  /Kubernetes/Docker/Celery/Socket/
+
+Misc		 /Linux/Gimp/Blender/Unity/Figma 
+
+Papers    ReAct/AIAYN/BERT/CLIP/Swin/TableNet/ 			/GPT/MobileNetV3/
+
+
+define  experience(career):
+
+Founder	Caddie AI – The ChatGpt of Golf        (2023-24)
+https://cadddie.ai
+https://apps.apple.com/us/app/caddie-ai-true-golf-ai/id6455428257?platform=iphone
+ 
+ • Pioneered the creation of Caddie AI, merging Golf Swing theory Rag Systems with bespoke golf swing models by generating custom datasets & model architecture ranging from LSTMs,GANs, Fine-Tuned Llm, Swin Transformer & ML-Kit, Blender 3D models.
+ • Architected backend with Python Flask & frontend with React and React Native.
+Conducted extensive research, grounding the tech with insights from 23 academic papers.
+ • Achieved a breakthrough feature: live swing analysis, offering real-time voice feedback within 7 seconds by partitioning tasks between edge & cloud-based inference.
+ • Managed Marketing Dashboards, Google / Meta / Appstore Ads
+ • Grew the App to over 9,000 Instagram followers, 1,000+ app installs within 2 months of launch, 3 Golf influencers, current peak usage is 48 concurrent users
+
+
+AI Product Lead	PerformanceGolf .com    (2021-22)
+https://performancegolf.com 
+
+• Designed, engineered, and researched AI products including scorecard analysis agents and coaching autonomous agents.
+• Organised and led a team of 3,to Clean & prepare thousands of golf scorecards for training, addressing issues with unreliable OCR data.
+• Led the Development of custom models, classifiers, regression models, custom ocrs , to enhance data reliability & improve swing analysis
+• Integrated scorecard analysis with a GPT3.5 based RAG system & vector db of coaching recommendations.
+• Originated the vision for Caddie AI during my tenure, ultimately deciding to pursue it independently due to creative differences with the CEO.
+
+
+Founder	    Dzynin  AI  Agency     (2020-23)
+https://www.upwork.com/freelancers/~01dd1d25edcdc81284
+
+• I founded Dzynin in the midst of covid due to the sudden surge in demand for freelance development. 
+• I sourced a team of devs that helped us achieve the clients required need. 
+• Typical client requirements were building out automation web apps, RAG Systems, niche ML apps with a key focus on speed of inference.
+
+
+NLP Developer American Heart Association    (2020-20)
+https://heart.org
+
+• Built a Flask web app for generating 50 different types of AHA certification PDFs (PALS, BLS, ACLS) from a master input PDF using Java SDK (pdfparser) and PyPDF.
+• Implemented a RAG system for FAQ troubleshooting, enhancing the application experience for new AHA applicants.
+
+
+Founding Engineer ImageRestorationCenter (2019-21)
+https://imagerestorationcenter.com 
+
+• Developed a PHP-based e-commerce site with a custom-trained image restoration model, combining open-source and proprietary work
+• Led technical efforts, including automated scheduling and API integrations, driving monthly revenue from 0 to $100K.
+
+
+Intern-Product Engineer	Skyscanner            (2018)
+https://skyscanner.net
+
+At Skyscanner, I had the opportunity to identify my strengths and weaknesses while working on:
+• Creating and refining user conversation flow diagrams to enhance user interactions with the chatbot.
+• Generating high-quality corpus annotation to continuously improve the chatbot's comprehension and response accuracy.
+
+</CV>

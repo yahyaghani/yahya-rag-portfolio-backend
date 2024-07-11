@@ -1,0 +1,9 @@
+Having been in early stage tech for 4 years, and founded my own Ai Product called Caddie Ai , I have experienced the range of technical debt one incurs due to duct-tape code when prototyping MVPs.
+
+I built out Caddie Ai from scratch . I have learnt more in a year building out the models, from scratch , creating feedback loops, optimising data pipelines , debuging Ux/Ui for web / native , than I did at my 3 years at uni specialising in Ai.
+
+I look forward to our initial meeting to discuss our mutual visions to see if we are a fit. 
+
+Best Regards,
+
+Yahya

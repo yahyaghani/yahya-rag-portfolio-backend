@@ -1,0 +1,17 @@
+I am Yahya Ghani, a solo founder of a cutting edge golf tech Ai app.
+
+My love story with Golf begins during the covid lockdown, I took up Golf as a way to keep active during the first lockdown, practicing my swing in my garden with a net and leveraging forums for feedback. 
+
+Within six months I had the opportunity to play the role of an Ai Product Lead for PerformanceGolf.com . I led a small team in building & training models for scorecard analysis , RAG systems for golf coaching; among other models.
+
+During this period I ran into the idea of leveraging the breakthroughs in LLMs to provide a new golf coaching experience via edge models that could provide pose estimation live , get regressive analysis done and combine it with LLMs and voice apis we could provide a live golf coaching experience . Sadly my boss at the time (Brixton Albert) didn't think so due to resource allocation. I decided to take the leap and build it myself.
+
+It took many months of lonely nights , regrets of having decided to build this but eventually it paid off on February 2024 and I was able to deploy the app on the appstore. Within 2 months of deployment I have had 9K followers on instagram, over 1k users with only organic marketing. 
+
+I am now at a cross-roads, the vision I had for Caddie AI is not wholly achieved and I do not want to give up on it aswell. This is why I believe i could make an excellent acquihire for Trackman , providing rights in return for letting me work on this technology as I truly believe one of the big players in the industry will leverage LLMs & RAG systems , I believe with Trackman on my side it could be us. 
+
+To try the current version of the technology please visit https://cadddieai.com or instagram.com/cadddieai
+
+Sincerely,
+
+Yahya Ghani
