@@ -1,9 +1,19 @@
 import openai
 import os
-import json
+from dotenv import load_dotenv
+import json 
+
+load_dotenv()
 
 # Setup OpenAI API key
-openai.api_key = os.getenv('OPENAI_API_KEY')
+openai_api_key = os.getenv('OPENAI_API_KEY')
+
+if openai_api_key is None:
+    raise ValueError("API key not found. Please ensure it's set in the .env file or environment variables.")
+
+print(f"Loaded OpenAI API key: {openai_api_key[:5]}...{openai_api_key[-5:]}")  # Print a portion of the key to confirm it's loaded
+
+openai.api_key = openai_api_key
 
 # Constants
 SYSTEM_MESSAGE = "You are Yahya AI,An AI assistant helping recruiters & Talent Acquisition teams analyse and query about Yahya Ghani's Career trajectory to better assess their suitability for possible vacancies in their organisations. You are often provided Career Documentation from Yahya Ghani's CV and other career documents to help you answer the queries."
