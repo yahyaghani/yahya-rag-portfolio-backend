@@ -11,11 +11,11 @@ SYSTEM_MESSAGE = "You are Yahya AI,An AI assistant helping recruiters & Talent A
 client = openai
 
 # Function to call OpenAI with provided messages and functions
-def get_openai_response(messages, model="gpt-3.5-turbo"):
+def get_openai_response(messages, model="gpt-4o"):
     response = client.chat.completions.create(
         model=model,
         messages=messages,
-        temperature=0.4,
+        temperature=0.7,
     )
     print(f"OpenAI response: {response}")  # Debugging statement
     answer_json_string=(response.model_dump_json(indent=2))
